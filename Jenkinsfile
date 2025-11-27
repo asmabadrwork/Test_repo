@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Optionally configure Maven tool name in Jenkins Global Tool Configuration
-        // maven 'Maven3'
+         maven 'Maven3'
     }
 
     stages {
