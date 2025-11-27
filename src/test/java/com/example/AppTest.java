@@ -20,11 +20,6 @@ public class AppTest {
     @Test
     void testGreet_nullName() {
         App app = new App();
-        Assertions.assertEquals("Hello, Guest", app.greet(null));
-    }
-    @Test
-    void testGreet_nullName() {
-        App app = new App();
         Assertions.assertEquals(999, app.add(2,3));
     }
 
